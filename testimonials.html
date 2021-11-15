@@ -1,0 +1,70 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+     <meta charset='utf-8'>
+     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+     <title>Hannah</title>
+     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="css/testimonials.css">
+     <script src='main.js'></script>
+ </head>
+ <body>
+    <div class="container">
+        <!-- Navbar -->
+        <div class="navbar">
+          <div class="menu">
+            <h3 class="logo">Site Logo</h3>
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Main Content Here -->
+        <div class="main-container">
+          <div class="main">
+            <header>
+              <div class="overlay">
+                <div class="inner">
+                  Site Content Here
+                </div>
+              </div>
+            </header>
+          </div>
+          <div class="shadow one"></div>
+          <div class="shadow two"></div>
+        </div>
+        <!-- Nav Links -->
+        <div class="links">
+          <ul>
+            <li>
+              <a href="#" style="--i: 0.05s;">Home</a>
+            </li>
+            <li>
+              <a href="#" style="--i: 0.1s;">Services</a>
+            </li>
+            <li>
+              <a href="#" style="--i: 0.15s;">Portfolio</a>
+            </li>
+            <li>
+              <a href="#" style="--i: 0.2s;">Testimonials</a>
+            </li>
+            <li>
+              <a href="#" style="--i: 0.25s;">About</a>
+            </li>
+            <li>
+              <a href="#" style="--i: 0.3s;">Contact</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+
+
+
+
+    <script>const hamburger_menu = document.querySelector(".hamburger-menu");
+        const container = document.querySelector(".container");
+            hamburger_menu.addEventListener("click", () => {
+            container.classList.toggle("active");
+        });</script>
+ </body>
+ </html>
